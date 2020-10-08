@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "next",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start"
   },
   "dependencies": {
+    "framer-motion": "^2.7.7",
+    "gsap": "^3.5.1",
     "next": "latest",
     "react": "^16.8.0",
     "react-dom": "^16.8.0",
+    "react-gsap": "^2.2.1",
     "styled-components": "^5.0.0"
   },
   "devDependencies": {

@@ -8,15 +8,17 @@ export default class MyApp extends App {
     return (
       <>
         <Head>
-          <title>template with-styled-component</title>
+          <title>Favorite Typographies</title>
+
+          <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+          <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+          />
           <link
-            href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+            href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,200,300,regular,500,600,700,100italic,200italic,300italic,italic,500italic,600italic,700italic"
             rel="stylesheet"
-          ></link>
-          <link
-            href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300&display=swap"
-            rel="stylesheet"
-          ></link>
+          />
           <link
             rel="apple-touch-icon"
             sizes="180x180"
@@ -37,7 +39,7 @@ export default class MyApp extends App {
           <link rel="manifest" href="/assets/site.webmanifest" />
         </Head>
         <GlobalStyle />
-        <Component {...pageProps} />;
+        <Component {...pageProps} />
       </>
     );
   }
